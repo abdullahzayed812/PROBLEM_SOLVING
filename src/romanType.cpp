@@ -1,10 +1,8 @@
-#include "./romanType.hpp"
+#include "../headers/romanType.hpp"
 
 #include <iostream>
 #include <map>
 #include <string>
-
-#include "romanType.hpp"
 
 RomanType::RomanType(std::string str) {
   this->romanString = str;

@@ -18,6 +18,7 @@ class GasMileage {
   const int& getGallons() const;
   const double& getTotalMiles() const;
   const double& getTotalGallons() const;
+  void test();
 };
 
 #endif

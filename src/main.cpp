@@ -1,11 +1,12 @@
 #include <iostream>
 #include <map>
 
-#include "./headers/romanType.hpp"
+#include "../headers/gasMileage.hpp"
+#include "../headers/romanType.hpp"
 
 int main() {
-  RomanType r1;
-  r1.test();
+  GasMileage gm;
+  gm.test();
 
   return 0;
 }
